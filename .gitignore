@@ -256,3 +256,10 @@ fabric.properties
 
 .idea/python.iml
 .idea/vcs.xml
+
+# Custom
+  # PyCharm
+  .idea/codeStyleSettings.xml
+  .idea/modules.xml
+
+
