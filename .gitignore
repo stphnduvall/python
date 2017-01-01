@@ -261,5 +261,7 @@ fabric.properties
   # PyCharm
   .idea/codeStyleSettings.xml
   .idea/modules.xml
+  .idea/misc.xml
+  .idea/openAi.iml
 
 
