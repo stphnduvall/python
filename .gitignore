@@ -263,5 +263,8 @@ fabric.properties
   .idea/modules.xml
   .idea/misc.xml
   .idea/openAi.iml
+  .floo
+  .flooignore
+  music-cache/*
 
 
