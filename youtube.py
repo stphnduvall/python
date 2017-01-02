@@ -25,8 +25,11 @@ def youtube_search(options):
    # Add each result to the appropriate list, then display the lists of matching videos, channels, and playlists
    for search_results in search_response.get("items", []):
      if search_results["id"]["kind"] == "youtube#video":
-       videos.append("%s (%s)" %  (search_results["snippet"]["title"], search_results["id"]["videoId"]))
-   print("Videos:\n", "\n".join(videos), "\n")
+       videos.append(
+         {'title': search_results["snippet"]["title"], 'id': search_results["id"]["videoId"]}
+       )
+   print(videos)
+
 
 if __name__ == "__main__":
   search = 'Bro safari the drop'
